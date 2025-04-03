@@ -43,10 +43,9 @@
     const ano = dataAtual.getFullYear();
 
     const dataFormatada = `${dia}/${mes}/${ano}`;
-
     document.getElementById("data-atual").textContent = dataFormatada;
 
-    console.log(dataAtual)
+    console.log(dataAtual);
 
     function sendLocation(position) {
       const latitude = position.coords.latitude;
