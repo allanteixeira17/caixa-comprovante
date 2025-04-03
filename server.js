@@ -30,6 +30,6 @@ app.post("/send-location", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 8088, () => {
+app.listen(8088, () => {
   console.log("Servidor rodando na porta 8088");
 });
